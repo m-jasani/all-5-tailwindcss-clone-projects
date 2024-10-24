@@ -8,7 +8,7 @@ export default function News() {
 
                             <div className="flex">
                                 <p className='text-left  ml-8 mt-4 '><span className="text-xl text-blue-950 font-semibold">News & Updates</span> | Today</p>
-                                <p className='ml-28 mt-2 text-2xl'>...</p>
+                                <p className='ml-40 mt-2 text-2xl'>...</p>
                             </div>
 
 

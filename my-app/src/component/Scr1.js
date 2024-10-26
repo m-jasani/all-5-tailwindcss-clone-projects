@@ -4,9 +4,9 @@ export default function Scr1({isCompressed}) {
   return (
     
     <div>
-    <div className='bg-[#f6f9ff] py-7'>
-        <h1 className='text-left px-14 pt-5 text-[20px] font-semibold text-blue-950'>Dashboard</h1>
-        <p className="text-left px-14 "> Home / <span className='text-[15xpx]'> Dashboard</span> </p>
+    <div className='bg-[#f6f9ff] py-3'>
+        <h1 className='text-left px-6 pt-2 text-[20px] font-semibold text-blue-950'>Dashboard</h1>
+        <p className="text-left px-6 text-sm text-gray-500"> Home / <span className='text-[15xpx] pl-2 pt-1 text-sm text-gray-800'> Dashboard</span> </p>
 
       <div className="">
                
@@ -16,11 +16,12 @@ export default function Scr1({isCompressed}) {
         
                         <div  className=" h-36 pb-4 bg-white rounded-lg shadow-xl col-span-2" >
                             <div className={`${'isCompressed'?'w-64':'w-72'}`}>
-                            <div className="flex">
+                            <div className="flex  flex-shrink justify-between">
                             <p className='text-left  ml-8 mt-4 flex'><span className="text-lg text-blue-950 font-semibold ">Sales </span><span className='pl-2 pt-1 text-sm text-gray-500'> | Today</span></p>
                       
-
-                            <p className='ml-[115px] mt-2 text-2xl'>...</p>
+            
+                            
+                            <p className=' mt-2 text-2xl text-gray-600'>...</p>
                             </div>
                             <div className="flex m-4">
                                 <p className='bg-blue-100 rounded-full size-16 p-3   text-blue-900'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
@@ -39,9 +40,9 @@ export default function Scr1({isCompressed}) {
                         <div className=" h-36 bg-white rounded-xl shadow-lg col-span-2">
                         <div className={`${'isCompressed'?'w-64':'w-72'}`}>
 
-                            <div className="flex">
+                            <div className="flex justify-between">
                             <p className='text-left  ml-8 mt-4 '><span className="text-lg text-blue-950 font-semibold">Revenue</span><span className="pl-2 pt-1 text-sm text-gray-500"> | This Month</span></p>
-                            <p className='ml-[49px] mt-2 text-2xl'>...</p>
+                            <p className=' mt-2 text-2xl text-gray-600'>...</p>
                             </div>
                             <div className="flex m-4">
                                 <p className='bg-green-100 rounded-full size-16 p-3   text-green-900'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
@@ -64,7 +65,7 @@ export default function Scr1({isCompressed}) {
                             
                             <div className="flex">
                             <p className='text-left  ml-8 mt-4 text-justify'><span className="text-lg text-blue-950 font-semibold">Customers</span><span className="pl-2 pt-1 text-sm text-gray-500"> | This Year</span></p>
-                            <p className='ml-[47px] mt-2 text-2xl'>...</p>
+                            <p className='ml-[47px] mt-2 text-2xl text-gray-600'>...</p>
                             </div>
                             <div className="flex m-4">
                                 <p className='bg-red-100 rounded-full size-16 p-3   text-orange-900'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10">
@@ -80,14 +81,14 @@ export default function Scr1({isCompressed}) {
                             </div>
                         </div>
 
-                        <div className="bg-white rounded- shadow-lg  col-span-3">
+                        <div className="bg-white rounded-lg shadow-lg  col-span-3">
                             <div className="flex">
                                 <p className='text-left  ml-8 mt-4 '><span className="text-lg text-blue-950 font-semibold">Recent Activity</span><span className="pl-2 pt-1 text-sm text-gray-500">| Today</span> </p>
-                                <p className='ml-36 mt-2 text-2xl'>...</p>
+                                <p className='ml-48 mt-2 text-2xl text-gray-600'>...</p>
                             </div>
 
 
-                            <div className="flex my-5 ml-7 ">
+                            <div className="flex my-5 ml-9 ">
 
                                 <div className="w-16 ">
                                     <div className="text-[14px] text-gray-500">32 min</div>

@@ -21,7 +21,7 @@ function App() {
       <Nav toggleContentWidth={toggleContentWidth} isCompressed={isCompressed}/>
       <div className={`${isCompressed ? 'md:grid md:grid-cols-5 ':''}`} >
 
-        <div className={`${isCompressed ? 'md:grid-cols-1 ':'hidden'}`}><Sidebar/></div>
+        <div className={`${isCompressed ? 'md:grid-cols-1 h-[90vh]':'hidden'}`}><Sidebar/></div>
 
         <div className={`${isCompressed ? ' md:col-span-4':''}`} >
         <Scr1 isCompressed={isCompressed}/>

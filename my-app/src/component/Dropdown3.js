@@ -20,7 +20,7 @@ const Dropdown3 = () => {
 </svg>
 
 </span>
-                <p className="">Tables</p>
+                <p className="ml-2 text-[15px]">Tables</p>
                 <span className="pt-1 pl-[136px]"><svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                         </svg></span></div>
@@ -31,10 +31,13 @@ const Dropdown3 = () => {
 
 
       {isVisible && (
-        <ul className=" ml-16 list-disc rounded text-left">
+        <ul className="  rounded text-left">
         
-          <li className="font-semibold text-blue-900 hover:text-blue-500 ">General Tables</li>
-          <li className="font-semibold text-blue-900 hover:text-blue-500 ">Data Tables</li>
+
+        <div className="flex pl-10"><div className="mt-2 mr-2 size-2 rounded-full inline-block border border-blue-800 border-3 border-px hover:bg-blue-800"></div><p className=" text-blue-900 hover:text-blue-500 text-[14px] ">General Tables</p></div>
+        <div className="flex pl-10"><div className="mt-2 mr-2 size-2 rounded-full inline-block border border-blue-800 border-3 border-px hover:bg-blue-800"></div><p className=" text-blue-900 hover:text-blue-500 text-[14px] ">Data Tables</p></div>
+
+          
           
           
           

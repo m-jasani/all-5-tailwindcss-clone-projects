@@ -7,7 +7,7 @@ export default function News() {
       <div className="bg-white rounded-xl shadow-xl ml-6 mt-5 sm:w-[480px]">
 
                             <div className="flex">
-                                <p className='text-left  ml-8 mt-4 '><span className="text-xl text-blue-950 font-semibold">News & Updates</span> | Today</p>
+                                <p className='text-left  ml-8 mt-4 '><span className="text-lg text-blue-950 font-semibold">News & Updates</span><span className="pl-2 pt-1 text-sm text-gray-500"> | Today</span></p>
                                 <p className='ml-40 mt-2 text-2xl'>...</p>
                             </div>
 
@@ -54,7 +54,7 @@ export default function News() {
        </div>
 
        <hr className='my-5' />
-       <p className=' text-blue-700'>© Copyright NiceAdmin. All Rights Reserved</p>
+       <p className=' text-blue-700'>© Copyright <span className='font-semibold'>NiceAdmin</span>. All Rights Reserved</p>
        <p className=' text-blue-700'>Designed by BootstrapMade</p>
 
     </div>

@@ -2,10 +2,12 @@ import React from 'react'
 
 export default function Tables() {
   return (
-    <div className='bg-[#f6f9ff] py-4 px-3 my-0'>
+    <div className='bg-[#f6f9ff] py-4 px-6 my-0'>
        <div  className='grid grid-cols-1 md:grid-cols-2 gap-4 my-5 '>
-        <div className="overflow-x-auto">
-                <table className=' bg-white rounded-md  min-w-full'>
+        <div className="overflow-x-auto bg-white rounded-md  min-w-full">
+        <p className='text-left  ml-16 mt-4 flex'><span className="text-lg text-blue-950 font-semibold ">Recent Sales </span><span className='pl-2 pt-1 text-sm text-gray-500'> | Today</span></p>
+            
+                <table className='ml-14  '>
                     <thead>
                         <tr className=''>
                         <th className='p-3 text-left'> # </th>
@@ -57,8 +59,10 @@ export default function Tables() {
                 </table>
                 </div>
                 
-            <div className='overflow-x-auto' >
-                <table className='bg-white rounded-md min-w-full'>
+            <div className=' overflow-x-auto bg-white rounded-md min-w-full' >
+
+            <p className='text-left  ml-16 mt-4 flex'><span className="text-lg text-blue-950 font-semibold ">Top Selling</span><span className='pl-2 pt-1 text-sm text-gray-500'> | Today</span></p>
+                <table className='ml-14'>
                     <thead>
                         <tr className=''>
                         <th className='p-3 text-left'> Preview </th>
